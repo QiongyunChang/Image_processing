@@ -19,6 +19,7 @@ def segmentation(fname_ori):
     original = plt.imread(fname_ori)
     img = image.copy()
     for c in range(3):
+        # np.where(image[:,:,c]>=0.5,0,255) 
         img[:,:,c] = np.where(image[:,:,c]>=0.5,255,0)
     img = np.array(img,np.int32)
     ROI = np.where(img != 0, original,0)
