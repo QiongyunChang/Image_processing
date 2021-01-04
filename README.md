@@ -2,7 +2,7 @@
 
 *(image credit to : https://www.youtube.com/watch?v=07d2dXHYb94&t ) <br>
 
-* B2W.py 黑色的部分轉白色/白色轉黑色
+* B2W.py 空白的部分填入原本的圖片
 
 ![](https://github.com/Todoorno/Image_processing/blob/main/image/145.jpg)
 
